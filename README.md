@@ -1,3 +1,14 @@
+# Instapaper RSS With Additional API
+
+This is a fork of Coedice's [instapaper-rss repo](https://github.com/Coedice/instapaper-rss). 
+
+The intent of this fork is: 
+- to add a front-end and API (with Vue and FastAPI) for easier configuration editing.
+- to implement easier/seamless deployment for self-hosters via containerization (Docker and hopefully also a Proxmox script)
+
+Original README.md below:
+---
+
 # Instapaper RSS
 
 Subscribe to RSS/Atom feeds and save items to [Instapaper](https://www.instapaper.com/).
