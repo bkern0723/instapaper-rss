@@ -8,10 +8,12 @@ license = { text = "MIT" }
 
 dependencies = [
     "beautifulsoup4>=4.13.4",
+    "fastapi[standard]>=0.124.4",
     "langdetect>=1.0.9",
     "lxml>=6.0.0",
     "lxml-html-clean>=0.4.2",
     "python-dateutil>=2.9.0.post0",
+    "python-multipart>=0.0.20",
     "pyyaml>=6.0.2",
     "requests>=2.32.4",
     "rich>=14.1.0",
@@ -23,6 +25,9 @@ dev = [
     "ruff>=0.8.4",
     "pytest>=8.3.3",
 ]
+
+[tool.fastapi]
+entrypoint = "api.main:app"
 
 [tool.ruff]
 # Optional: tune ruff for the project

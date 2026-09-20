@@ -8,6 +8,7 @@ uv.lock
 # Environments
 .env
 .venv/
+.vscode/
 env/
 venv/
 ENV/
@@ -19,3 +20,6 @@ venv.bak/
 
 # Local secrets and runtime state
 pickles/
+
+# Test output files
+config/original/
